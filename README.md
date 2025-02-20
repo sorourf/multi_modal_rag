@@ -4,7 +4,7 @@
 
 ### 1. ColBERT
 
-![System Architecture](images/imagescolpali.png)
+![System Architecture](images/colpali.png)
 
 ColBERT is a retrieval model that improves efficiency and accuracy through:
 
