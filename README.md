@@ -4,27 +4,27 @@
 
 ### 1. ColBERT
 
-![System Architecture](imagescolpali.png)
+![System Architecture](images/imagescolpali.png)
 
 ColBERT is a retrieval model that improves efficiency and accuracy through:
 
 - **Token-Level Representation:** ColBERT maintains individual embeddings for each token, allowing for fine-grained retrieval.
 - **Late Interaction Mechanism:** ColBERT employs a late interaction strategy, where queries and documents are processed separately until the final retrieval stage.
 
-![System Architecture](colbert1.png)
-![System Architecture](colbert2.png)
-![System Architecture](colbert3.png)
+![System Architecture](images/colbert1.png)
+![System Architecture](images/colbert2.png)
+![System Architecture](images/colbert3.png)
 
 ### 2. PaliGemma
 
-![System Architecture](vit.png)
+![System Architecture](images/vit.png)
 
 
 PaliGemma is a lightweight (3B) model that combines:
 - A vision model (**SigLIP-SO400M**) and 
 - A language model (**Gemma-2B**)
 
-![System Architecture](gemma.png)
+![System Architecture](images/gemma.png)
 
 Transformers, the backbone of LLMs, have been successfully applied not only to text but also to vision, where images are split into fixed-size patches. PaliGemma integrates these models by connecting them with a linear layer for seamless interaction.
 
